@@ -1,0 +1,80 @@
+:root{
+  --underweight:orange;
+  --normal:green;
+  --overweight:lightcoral;
+  --obese:crimson;
+}
+
+.container{
+  background-color: white;
+  font-weight: 900;
+}
+.input{
+  padding: 10px 20px;
+}
+input{
+  padding: 10px;
+  width: 250px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+button{
+  width: 150px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 20px;
+}
+#button{
+  justify-content: space-around;
+  display: flex;
+  
+}
+#calc{
+  background-color: green;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+#calc:hover{
+  background-color: rgb(1, 103, 1);
+}
+#reset:hover{
+  background-color: rgb(209, 209, 209);
+
+}
+
+.index{
+  display: flex;
+}
+
+.index div{
+  flex:1;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-top: 5px solid var(--color);
+}
+
+.index h6{
+  font-size: .75rem;
+  font-weight: 900;
+  color: slategray;
+  margin-top: 10px;
+}
+.index p{
+  font-size: .90rem;
+  font-weight: 900;
+}
+
+.uw{
+  --color:var(--underweight)
+}
+.n{
+  --color:var(--normal)
+}
+.ow{
+  --color:var(--overweight)
+}
+.o{
+  --color:var(--obese)
+}
